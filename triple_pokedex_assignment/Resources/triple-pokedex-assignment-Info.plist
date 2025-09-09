@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLName</key>
+	<string>com.test.test.triple-pokedex-assignment</string>
+	<key>CFBundleURLSchemes</key>
+	<array>
+		<string>triplepokedex</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.test.test.triple-pokedex-assignment</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>triplepokedex</string>
+			</array>
+		</dict>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CabinetGrotesk-Extrabold.otf</string>
+		<string>CabinetGrotesk-Regular.otf</string>
+		<string>Rubik-Regular.ttf</string>
+		<string>Rubik-Medium.ttf</string>
+		<string>Rubik-SemiBold.ttf</string>
+	</array>
+</dict>
+</plist>
