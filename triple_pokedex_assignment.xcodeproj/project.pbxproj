@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		708980FA2E6B167100F524CF /* PokedexAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 708980F92E6B167100F524CF /* PokedexAPI */; };
+		7003E2AD2E70359A005E632C /* PokedexAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 7003E2AC2E70359A005E632C /* PokedexAPI */; };
 		70FA2D4F2E66EC8800431575 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 70FA2D4E2E66EC8800431575 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708980FA2E6B167100F524CF /* PokedexAPI in Frameworks */,
+				7003E2AD2E70359A005E632C /* PokedexAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +79,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7003E2A82E703532005E632C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		709B23752E66E599008AD64E = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +93,7 @@
 				709B23802E66E599008AD64E /* triple_pokedex_assignment */,
 				709B23902E66E59B008AD64E /* triple_pokedex_assignmentTests */,
 				709B239A2E66E59B008AD64E /* triple_pokedex_assignmentUITests */,
+				7003E2A82E703532005E632C /* Frameworks */,
 				709B237F2E66E599008AD64E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,7 +128,7 @@
 			);
 			name = triple_pokedex_assignment;
 			packageProductDependencies = (
-				708980F92E6B167100F524CF /* PokedexAPI */,
+				7003E2AC2E70359A005E632C /* PokedexAPI */,
 			);
 			productName = triple_pokedex_assignment;
 			productReference = 709B237E2E66E599008AD64E /* triple_pokedex_assignment.app */;
@@ -205,7 +213,7 @@
 			mainGroup = 709B23752E66E599008AD64E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				708980F82E6B167100F524CF /* XCLocalSwiftPackageReference "../PokedexAPI" */,
+				7003E2AB2E70359A005E632C /* XCLocalSwiftPackageReference "PokedexAPI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 709B237F2E66E599008AD64E /* Products */;
@@ -579,14 +587,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		708980F82E6B167100F524CF /* XCLocalSwiftPackageReference "../PokedexAPI" */ = {
+		7003E2AB2E70359A005E632C /* XCLocalSwiftPackageReference "PokedexAPI" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../PokedexAPI;
+			relativePath = PokedexAPI;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		708980F92E6B167100F524CF /* PokedexAPI */ = {
+		7003E2AC2E70359A005E632C /* PokedexAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PokedexAPI;
 		};
